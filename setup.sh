@@ -7,7 +7,7 @@
 ########## Variables
 
 dir=~/.dotfiles                    # dotfiles directory
-files="bash_profile vimrc vim zshrc oh-my-zsh editorconfig"    # list of files/folders to symlink in homedir
+files="bash_profile vimrc zshrc editorconfig"    # list of files/folders to symlink in homedir
 
 ##########
 
