@@ -7,6 +7,7 @@ Plug 'bling/vim-airline'
 Plug 'easymotion/vim-easymotion'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'godlygeek/tabular'
+Plug 'joonty/vdebug'
 Plug 'joshdick/onedark.vim'
 Plug 'kien/ctrlp.vim'
 Plug 'majutsushi/tagbar'
@@ -32,7 +33,9 @@ let &t_SI = "\<Esc>]50;CursorShape=1\x7"
 let &t_SR = "\<Esc>]50;CursorShape=2\x7"
 let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 
+set backupdir=$TMPDIR//             " Make backups in OS's temp directory
 set cursorline                      " Highlight line cursor is on
+set directory=$TMPDIR//             " Make .swp files in OS's temp directory
 set hlsearch                        " Highlight search results
 set lazyredraw                      " Don't redraw screen during macros
 set listchars=tab:»\ ,trail:·,eol:¬ " Determine invisible characters
@@ -70,6 +73,9 @@ nnoremap <leader>sv :source % <bar> :AirlineRefresh<CR>
 nnoremap <space> za
 
 nnoremap <leader>u :GundoToggle<CR>
+
+" Force saving files that require root permission
+cnoremap w!! w !sudo tee > /dev/null %
 " }}}
 
 " --- Ack {{{
