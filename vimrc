@@ -24,6 +24,7 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-vinegar'
 Plug 'valloric/youcompleteme', { 'do': './install.py' }
 Plug 'w0rp/ale'
+Plug 'yuttie/comfortable-motion.vim'
 call plug#end()
 " }}}
 
@@ -42,6 +43,11 @@ set listchars=tab:»\ ,trail:·,eol:¬ " Determine invisible characters
 set mouse=a                         " Enable mouse
 set relativenumber number           " Line numbering
 set showcmd                         " Displays current command in bottom right
+" Persistent undo
+set undofile
+set undodir=$HOME/.vim/undo
+set undolevels=1000
+set undoreload=10000
 " }}}
 
 " Colors {{{
