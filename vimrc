@@ -24,7 +24,6 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-vinegar'
 Plug 'valloric/youcompleteme', { 'do': './install.py' }
 Plug 'w0rp/ale'
-Plug 'yuttie/comfortable-motion.vim'
 call plug#end()
 " }}}
 
@@ -37,6 +36,7 @@ let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 set backupdir=$TMPDIR//             " Make backups in OS's temp directory
 set cursorline                      " Highlight line cursor is on
 set directory=$TMPDIR//             " Make .swp files in OS's temp directory
+set hidden                          " Allow buffers to be switched before saving
 set hlsearch                        " Highlight search results
 set lazyredraw                      " Don't redraw screen during macros
 set listchars=tab:»\ ,trail:·,eol:¬ " Determine invisible characters
