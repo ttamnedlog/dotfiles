@@ -85,6 +85,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias del="rmtrash"
+alias npmg="npm list -g --depth=0 2>/dev/null"
+alias npml="npm list --depth=0 2>/dev/null"
 
 # .zshrc
 autoload -U promptinit; promptinit
