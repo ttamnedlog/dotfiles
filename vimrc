@@ -50,9 +50,10 @@ set listchars=tab:»\ ,trail:·,eol:¬ " Determine invisible characters
 set mouse=a                         " Enable mouse
 set relativenumber number           " Line numbering
 set showcmd                         " Displays current command in bottom right
+set splitbelow splitright           " Open new split panes to right and bottom
 " Persistent undo
-set undofile
 set undodir=$HOME/.vim/undo
+set undofile
 set undolevels=1000
 set undoreload=10000
 " }}}
