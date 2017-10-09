@@ -88,6 +88,7 @@ source $ZSH/oh-my-zsh.sh
 alias del="rmtrash"
 alias npmg="npm list -g --depth=0 2>/dev/null"
 alias npml="npm list --depth=0 2>/dev/null"
+alias roots="sh roots"
 
 # .zshrc
 autoload -U promptinit; promptinit
