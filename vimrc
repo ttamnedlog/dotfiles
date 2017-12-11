@@ -28,7 +28,8 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-surround'
-Plug 'tpope/vim-vinegar'
+" Plug 'tpope/vim-vinegar' ---- currently bugged
+Plug 'mmrwoods/vim-vinegar'
 Plug 'valloric/youcompleteme', { 'do': './install.py' }
 Plug 'w0rp/ale'
 call plug#end()
