@@ -51,6 +51,7 @@ set mouse=a                         " Enable mouse
 set relativenumber number           " Line numbering
 set showcmd                         " Displays current command in bottom right
 set splitbelow splitright           " Open new split panes to right and bottom
+set regexpengine=1
 " Persistent undo
 set undodir=$HOME/.vim/undo
 set undofile
