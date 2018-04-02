@@ -17,7 +17,7 @@ Plug 'godlygeek/tabular'
 Plug 'joonty/vdebug'
 Plug 'joshdick/onedark.vim'
 Plug 'kien/ctrlp.vim'
-Plug 'majutsushi/tagbar'
+" Plug 'majutsushi/tagbar'
 Plug 'mileszs/ack.vim'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'raimondi/delimitmate'
@@ -29,8 +29,8 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-vinegar'
-Plug 'valloric/youcompleteme', { 'do': './install.py' }
-Plug 'w0rp/ale'
+" Plug 'valloric/youcompleteme', { 'do': './install.py' }
+" Plug 'w0rp/ale'
 call plug#end()
 " }}}
 
@@ -52,11 +52,26 @@ set relativenumber number           " Line numbering
 set showcmd                         " Displays current command in bottom right
 set splitbelow splitright           " Open new split panes to right and bottom
 set regexpengine=1                  " Use new regexpengine for improved performance
+
 " Persistent undo
 set undodir=$HOME/.vim/undo
 set undofile
 set undolevels=1000
 set undoreload=10000
+
+" set statusline=%F%m%r%h%w[%L][%{&ff}]%y[%p%%][%04l,%04v]
+"              | | | | |  |   |      |  |     |    |
+"              | | | | |  |   |      |  |     |    +-- current column
+"              | | | | |  |   |      |  |     +-- current line
+"              | | | | |  |   |      |  +-- current % into file
+"              | | | | |  |   |      +-- current syntax
+"              | | | | |  |   +-- current fileformat
+"              | | | | |  +-- number of lines
+"              | | | | +-- preview flag in square brackets
+"              | | | +-- help flag in square brackets
+"              | | +-- readonly flag in square brackets
+"              | +-- modified flag in square brackets
+"              +-- full path to file in the buffer
 " }}}
 
 " Colors {{{
@@ -99,7 +114,7 @@ let g:ackprg = 'ag --vimgrep'
 "  }}}
 
 " --- Airline {{{
-let g:airline#extensions#tagbar#enabled = 0
+" let g:airline#extensions#tagbar#enabled = 0
 " }}}
 
 " --- CtrlP {{{
