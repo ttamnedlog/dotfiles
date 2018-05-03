@@ -138,4 +138,9 @@ autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=#2e3138
 autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=#393d46
 " }}}
 
+" --- Polyglot {{{
+" Define some single Blade directives. This variable is used for highlighting only.
+let g:blade_custom_directives = ['debug', 'dump']
+" }}}
+
 " vim:foldmethod=marker:foldlevel=0

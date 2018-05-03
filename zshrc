@@ -53,7 +53,7 @@ ZSH_THEME=""
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git osx brew vagrant zsh-syntax-highlighting history-substring-search)
+plugins=(git osx brew vagrant jump zsh-syntax-highlighting history-substring-search)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -86,10 +86,11 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias del="rmtrash"
+alias homepress="sh homepress"
+alias j="jump"
 alias npmg="npm list -g --depth=0 2>/dev/null"
 alias npml="npm list --depth=0 2>/dev/null"
 alias roots="sh roots"
-alias homepress="sh homepress"
 
 # .zshrc
 autoload -U promptinit; promptinit
