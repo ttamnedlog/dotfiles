@@ -10,7 +10,7 @@ endif
 
 call plug#begin('~/.vim/bundle')
 Plug 'airblade/vim-gitgutter'
-" Plug 'altercation/vim-colors-solarized'
+Plug 'altercation/vim-colors-solarized'
 Plug 'bling/vim-airline'
 Plug 'easymotion/vim-easymotion'
 Plug 'editorconfig/editorconfig-vim'
@@ -23,7 +23,7 @@ Plug 'jwalton512/vim-blade'
 Plug 'mileszs/ack.vim'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'raimondi/delimitmate'
-Plug 'rakr/vim-one'
+" Plug 'rakr/vim-one'
 Plug 'sheerun/vim-polyglot'
 Plug 'shumphrey/fugitive-gitlab.vim'
 Plug 'sjl/gundo.vim'
@@ -98,11 +98,11 @@ set undoreload=10000
  endif
 
 " let g:airline_theme='onedark'
-" let g:airline_theme='solarized'
-let g:airline_theme='one'
+let g:airline_theme='solarized'
+" let g:airline_theme='one'
 " colorscheme onedark
-" colorscheme solarized
-colorscheme one
+colorscheme solarized
+" colorscheme one
 set background=light
 " }}}
 
