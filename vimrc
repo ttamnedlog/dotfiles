@@ -15,34 +15,35 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.vim/bundle')
-Plug 'airblade/vim-gitgutter'
-Plug 'altercation/vim-colors-solarized'
-Plug 'bling/vim-airline'
-Plug 'easymotion/vim-easymotion'
-Plug 'editorconfig/editorconfig-vim'
-Plug 'godlygeek/tabular'
-" Plug 'joonty/vdebug'
-" Plug 'joshdick/onedark.vim'
-Plug 'kien/ctrlp.vim'
-Plug 'jwalton512/vim-blade'
-" Plug 'majutsushi/tagbar'
 Plug 'mileszs/ack.vim'
-Plug 'nathanaelkane/vim-indent-guides'
-Plug 'raimondi/delimitmate'
-" Plug 'rakr/vim-one'
-Plug 'sheerun/vim-polyglot'
-Plug 'shumphrey/fugitive-gitlab.vim'
-Plug 'sjl/gundo.vim'
-Plug 'terryma/vim-multiple-cursors'
-Plug 'tpope/vim-commentary'
-Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-repeat'
-Plug 'tpope/vim-sensible'
-Plug 'tpope/vim-surround'
-Plug 'tpope/vim-vinegar'
-" Plug 'valloric/youcompleteme', { 'do': './install.py' }
+Plug 'bling/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 " Plug 'w0rp/ale'
+Plug 'jwalton512/vim-blade'
+Plug 'tpope/vim-commentary'
+Plug 'kien/ctrlp.vim'
+Plug 'raimondi/delimitmate'
+Plug 'easymotion/vim-easymotion'
+Plug 'editorconfig/editorconfig-vim'
+Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
+Plug 'shumphrey/fugitive-gitlab.vim'
+Plug 'sjl/gundo.vim'
+Plug 'nathanaelkane/vim-indent-guides'
+Plug 'terryma/vim-multiple-cursors'
+" Plug 'rakr/vim-one'
+" Plug 'joshdick/onedark.vim'
+Plug 'NLKNguyen/papercolor-theme'
+Plug 'sheerun/vim-polyglot'
+Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-sensible'
+Plug 'altercation/vim-colors-solarized'
+Plug 'tpope/vim-surround'
+Plug 'godlygeek/tabular'
+" Plug 'majutsushi/tagbar'
+Plug 'vim-vdebug/vdebug'
+Plug 'tpope/vim-vinegar'
+" Plug 'valloric/youcompleteme', { 'do': './install.py' }
 call plug#end()
 " }}}
 
@@ -90,25 +91,27 @@ set undoreload=10000
 "Use 24-bit (true-color) mode in Vim/Neovim when outside tmux.
 "If you're using tmux version 2.2 or later, you can remove the outermost $TMUX check and use tmux's 24-bit color support
 "(see < http://sunaku.github.io/tmux-24bit-color.html#usage > for more information.)
-"if (empty($TMUX))
-"  if (has("nvim"))
-"    "For Neovim 0.1.3 and 0.1.4 < https://github.com/neovim/neovim/pull/2198 >
-"    let $NVIM_TUI_ENABLE_TRUE_COLOR=1
-"  endif
+if (empty($TMUX))
+  if (has("nvim"))
+    "For Neovim 0.1.3 and 0.1.4 < https://github.com/neovim/neovim/pull/2198 >
+    let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+  endif
   "For Neovim > 0.1.5 and Vim > patch 7.4.1799 < https://github.com/vim/vim/commit/61be73bb0f965a895bfb064ea3e55476ac175162 >
   "Based on Vim patch 7.4.1770 (`guicolors` option) < https://github.com/vim/vim/commit/8a633e3427b47286869aa4b96f2bfc1fe65b25cd >
   " < https://github.com/neovim/neovim/wiki/Following-HEAD#20160511 >
-  " if (has("termguicolors"))
-  "   set termguicolors
-  " endif
-" endif
+  if (has("termguicolors"))
+    set termguicolors
+  endif
+endif
 
 " let g:airline_theme='onedark'
-let g:airline_theme='solarized'
+" let g:airline_theme='solarized'
 " let g:airline_theme='one'
+let g:airline_theme='papercolor'
 " colorscheme onedark
-colorscheme solarized
+" colorscheme solarized
 " colorscheme one
+colorscheme PaperColor
 set background=light
 " }}}
 
