@@ -23,3 +23,7 @@ trim_trailing_whitespace = true
 # Makefile styles
 [Makefile]
 indent_style = tab
+
+# Diff styles
+[*.diff]
+trim_trailing_whitespace = false

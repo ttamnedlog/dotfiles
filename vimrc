@@ -37,7 +37,7 @@ Plug 'NLKNguyen/papercolor-theme'
 Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-sensible'
-Plug 'altercation/vim-colors-solarized'
+" Plug 'altercation/vim-colors-solarized'
 Plug 'tpope/vim-surround'
 Plug 'godlygeek/tabular'
 " Plug 'majutsushi/tagbar'
@@ -147,7 +147,7 @@ let g:ctrlp_user_command = 'ag %s -l --nocolor --hidden -g ""'
 " }}}
 
 " --- EditorConfig {{{
-let g:EditorConfig_exclude_patterns = ['fugitive://.*']
+let g:EditorConfig_exclude_patterns = ['fugitive://.*', '.diff']
 " }}}
 
 " --- IndentGuides {{{
