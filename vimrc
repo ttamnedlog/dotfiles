@@ -161,7 +161,7 @@ autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=#393d46
 let g:blade_custom_directives = ['debug', 'dump']
 " }}}
 
-" Xdebug {{{
+" --- Xdebug {{{
 " Source file for XDebug path maps
 if !empty(glob('~/.xdebug-maps'))
   so ~/.xdebug-maps
