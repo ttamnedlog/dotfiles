@@ -19,7 +19,7 @@ Plug 'mileszs/ack.vim'
 Plug 'bling/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 " Plug 'w0rp/ale'
-Plug 'jwalton512/vim-blade'
+" Plug 'jwalton512/vim-blade'
 Plug 'tpope/vim-commentary'
 Plug 'kien/ctrlp.vim'
 Plug 'raimondi/delimitmate'
@@ -41,7 +41,7 @@ Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-surround'
 Plug 'godlygeek/tabular'
 " Plug 'majutsushi/tagbar'
-Plug 'vim-vdebug/vdebug'
+" Plug 'vim-vdebug/vdebug'
 Plug 'tpope/vim-vinegar'
 " Plug 'valloric/youcompleteme', { 'do': './install.py' }
 call plug#end()
@@ -53,14 +53,14 @@ let &t_SI = "\<Esc>]50;CursorShape=1\x7"
 let &t_SR = "\<Esc>]50;CursorShape=2\x7"
 let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 
-set backupdir=$TMPDIR//             " Make backups in OS's temp directory
+" set backupdir=$TMPDIR//             " Make backups in OS's temp directory
 set cursorline                      " Highlight line cursor is on
-set directory=$TMPDIR//             " Make .swp files in OS's temp directory
+" set directory=$TMPDIR//             " Make .swp files in OS's temp directory
 set hidden                          " Allow buffers to be switched before saving
 set hlsearch                        " Highlight search results
 set lazyredraw                      " Don't redraw screen during macros
 set listchars=tab:»\ ,trail:·,eol:¬ " Determine invisible characters
-set mouse=a                         " Enable mouse
+" set mouse=a                         " Enable mouse
 set relativenumber number           " Line numbering
 set showcmd                         " Displays current command in bottom right
 set splitbelow splitright           " Open new split panes to right and bottom
@@ -131,7 +131,7 @@ cnoremap w!! w !sudo tee > /dev/null %
 
 " --- Ack {{{
 " Use The Silver Searcher instead of Ack
-let g:ackprg = 'ag --vimgrep'
+" let g:ackprg = 'ag --vimgrep'
 "  }}}
 
 " --- Airline {{{
@@ -143,7 +143,7 @@ let g:ctrlp_match_window = 'bottom,order:ttb'
 let g:ctrlp_switch_buffer = 0
 let g:ctrlp_working_path_mode = 0
 " Use The Silver Searcher for faster searches
-let g:ctrlp_user_command = 'ag %s -l --nocolor --hidden -g ""'
+" let g:ctrlp_user_command = 'ag %s -l --nocolor --hidden -g ""'
 " }}}
 
 " --- EditorConfig {{{
