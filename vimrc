@@ -1,9 +1,3 @@
-" Python deprecation warning TEMPORARY workaround {{{
-if has('python3')
-  silent! python3 1
-endif
-" }}}
-
 set nocompatible " iMproved
 
 " Vim Plug {{{
