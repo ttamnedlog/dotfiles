@@ -31,9 +31,9 @@ Plug 'shumphrey/fugitive-gitlab.vim'
 Plug 'sjl/gundo.vim'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'terryma/vim-multiple-cursors'
-" Plug 'rakr/vim-one'
+Plug 'rakr/vim-one'
 " Plug 'joshdick/onedark.vim'
-Plug 'NLKNguyen/papercolor-theme'
+" Plug 'NLKNguyen/papercolor-theme'
 Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-sensible'
@@ -106,13 +106,13 @@ endif
 
 " let g:airline_theme='onedark'
 " let g:airline_theme='solarized'
-" let g:airline_theme='one'
-let g:airline_theme='papercolor'
+let g:airline_theme='one'
+" let g:airline_theme='papercolor'
 " colorscheme onedark
 " colorscheme solarized
-" colorscheme one
-colorscheme PaperColor
-set background=light
+colorscheme one
+" colorscheme PaperColor
+set background=dark
 " }}}
 
 " Keybindings {{{

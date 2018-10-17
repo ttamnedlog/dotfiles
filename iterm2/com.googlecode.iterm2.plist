@@ -775,7 +775,7 @@
 		</dict>
 	</dict>
 	<key>Default Bookmark Guid</key>
-	<string>EFC4F134-F633-48DF-91D9-9416B43EEDCE</string>
+	<string>039B408C-04B3-434F-BAEF-FC4BA6D0F4AD</string>
 	<key>Default Toolbelt Width</key>
 	<real>250</real>
 	<key>DetectPasswordInput</key>
@@ -839,11 +839,11 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>269 126 606 469 0 0 2560 1417 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>1302 555 796 486 0 0 2560 1417 </string>
+	<string>1302 836 916 423 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>23 79 1655 1269 0 0 2560 1417 </string>
+	<string>480 206 885 813 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>905 148 1655 1269 0 0 2560 1417 </string>
+	<string>905 167 1655 1246 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>1281 0 1277 1417 0 0 2560 1417 </string>
 	<key>New Bookmarks</key>
@@ -4198,7 +4198,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-10-08T13:49:46Z</date>
+	<date>2018-10-17T16:17:11Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>TerminalMargin</key>
