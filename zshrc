@@ -1,6 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH="$PATH:/usr/local/sbin:$HOME/.composer/vendor/bin"
+export PATH=/usr/local/sbin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
@@ -58,6 +57,7 @@ plugins=(git osx brew vagrant jump zsh-syntax-highlighting history-substring-sea
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+fpath=(/usr/local/share/zsh-completions $fpath)
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
