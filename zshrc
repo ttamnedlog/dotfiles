@@ -91,6 +91,7 @@ alias j="jump"
 alias npmg="npm list -g --depth=0 2>/dev/null"
 alias npml="npm list --depth=0 2>/dev/null"
 alias roots="sh roots"
+alias vgs="vagrant global-status"
 
 # .zshrc
 autoload -U promptinit; promptinit
