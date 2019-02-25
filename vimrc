@@ -144,6 +144,10 @@ let g:ctrlp_user_command = 'ag %s -l --nocolor --hidden -g ""'
 let g:EditorConfig_exclude_patterns = ['fugitive://.*', '.diff']
 " }}}
 
+" --- GUndo {{{
+let g:gundo_prefer_python3 = 1
+" }}}
+
 " --- IndentGuides {{{
 let g:indent_guides_auto_colors = 0
 autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=#2e3138
