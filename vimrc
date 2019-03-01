@@ -10,7 +10,7 @@ endif
 
 call plug#begin('~/.vim/bundle')
 Plug 'NLKNguyen/papercolor-theme'
-Plug 'altercation/vim-colors-solarized'
+" Plug 'altercation/vim-colors-solarized'
 " Plug 'joshdick/onedark.vim'
 " Plug 'majutsushi/tagbar'
 " Plug 'raimondi/delimitmate'
@@ -24,7 +24,7 @@ Plug 'godlygeek/tabular'
 Plug 'kien/ctrlp.vim'
 Plug 'mileszs/ack.vim'
 Plug 'nathanaelkane/vim-indent-guides'
-Plug 'rakr/vim-one'
+" Plug 'rakr/vim-one'
 Plug 'sheerun/vim-polyglot'
 Plug 'shumphrey/fugitive-gitlab.vim'
 Plug 'sjl/gundo.vim'
@@ -100,7 +100,7 @@ endif
 " let g:airline_theme='onedark'
 " let g:airline_theme='solarized'
 " let g:airline_theme='one'
-" let g:airline_theme='papercolor'
+let g:airline_theme='papercolor'
 " colorscheme onedark
 " colorscheme solarized
 " colorscheme one
