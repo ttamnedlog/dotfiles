@@ -9,13 +9,14 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.vim/bundle')
-Plug 'NLKNguyen/papercolor-theme'
 " Plug 'altercation/vim-colors-solarized'
 " Plug 'joshdick/onedark.vim'
 " Plug 'majutsushi/tagbar'
 " Plug 'raimondi/delimitmate'
+" Plug 'rakr/vim-one'
 " Plug 'valloric/youcompleteme', { 'do': './install.py' }
 " Plug 'w0rp/ale'
+Plug 'NLKNguyen/papercolor-theme'
 Plug 'airblade/vim-gitgutter'
 Plug 'bling/vim-airline'
 Plug 'easymotion/vim-easymotion'
@@ -24,7 +25,6 @@ Plug 'godlygeek/tabular'
 Plug 'kien/ctrlp.vim'
 Plug 'mileszs/ack.vim'
 Plug 'nathanaelkane/vim-indent-guides'
-" Plug 'rakr/vim-one'
 Plug 'sheerun/vim-polyglot'
 Plug 'shumphrey/fugitive-gitlab.vim'
 Plug 'sjl/gundo.vim'
