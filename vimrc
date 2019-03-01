@@ -9,8 +9,8 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.vim/bundle')
-" Plug 'NLKNguyen/papercolor-theme'
-" Plug 'altercation/vim-colors-solarized'
+Plug 'NLKNguyen/papercolor-theme'
+Plug 'altercation/vim-colors-solarized'
 " Plug 'joshdick/onedark.vim'
 " Plug 'majutsushi/tagbar'
 " Plug 'raimondi/delimitmate'
@@ -21,7 +21,6 @@ Plug 'bling/vim-airline'
 Plug 'easymotion/vim-easymotion'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'godlygeek/tabular'
-Plug 'jwalton512/vim-blade'
 Plug 'kien/ctrlp.vim'
 Plug 'mileszs/ack.vim'
 Plug 'nathanaelkane/vim-indent-guides'
@@ -100,13 +99,13 @@ endif
 
 " let g:airline_theme='onedark'
 " let g:airline_theme='solarized'
-let g:airline_theme='one'
+" let g:airline_theme='one'
 " let g:airline_theme='papercolor'
 " colorscheme onedark
 " colorscheme solarized
-colorscheme one
-" colorscheme PaperColor
-set background=dark
+" colorscheme one
+colorscheme PaperColor
+set background=light
 " }}}
 
 " Keybindings {{{
@@ -150,8 +149,8 @@ let g:gundo_prefer_python3 = 1
 
 " --- IndentGuides {{{
 let g:indent_guides_auto_colors = 0
-autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=#2e3138
-autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=#393d46
+autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=#2c323c
+autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=#282c34
 " }}}
 
 " --- Polyglot {{{
