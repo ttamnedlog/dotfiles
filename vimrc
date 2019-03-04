@@ -8,15 +8,14 @@ if empty(glob('~/.vim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
+" NOTE: cmake is required to compile the YouCompleteMe plugin below!
+
 call plug#begin('~/.vim/bundle')
+" Plug 'NLKNguyen/papercolor-theme'
 " Plug 'altercation/vim-colors-solarized'
 " Plug 'joshdick/onedark.vim'
 " Plug 'majutsushi/tagbar'
-" Plug 'raimondi/delimitmate'
-" Plug 'rakr/vim-one'
-" Plug 'valloric/youcompleteme', { 'do': './install.py' }
 " Plug 'w0rp/ale'
-Plug 'NLKNguyen/papercolor-theme'
 Plug 'airblade/vim-gitgutter'
 Plug 'bling/vim-airline'
 Plug 'easymotion/vim-easymotion'
@@ -25,6 +24,8 @@ Plug 'godlygeek/tabular'
 Plug 'kien/ctrlp.vim'
 Plug 'mileszs/ack.vim'
 Plug 'nathanaelkane/vim-indent-guides'
+Plug 'raimondi/delimitmate'
+Plug 'rakr/vim-one'
 Plug 'sheerun/vim-polyglot'
 Plug 'shumphrey/fugitive-gitlab.vim'
 Plug 'sjl/gundo.vim'
@@ -35,6 +36,7 @@ Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-vinegar'
+Plug 'valloric/youcompleteme', { 'do': './install.py' }
 Plug 'vim-airline/vim-airline-themes'
 Plug 'vim-vdebug/vdebug'
 call plug#end()
@@ -99,13 +101,13 @@ endif
 
 " let g:airline_theme='onedark'
 " let g:airline_theme='solarized'
-" let g:airline_theme='one'
-let g:airline_theme='papercolor'
+let g:airline_theme='one'
+" let g:airline_theme='papercolor'
 " colorscheme onedark
 " colorscheme solarized
-" colorscheme one
-colorscheme PaperColor
-set background=light
+colorscheme one
+" colorscheme PaperColor
+set background=dark
 " }}}
 
 " Keybindings {{{
