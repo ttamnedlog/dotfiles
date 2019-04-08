@@ -6,6 +6,7 @@ git-flow-avh
 grunt-cli
 python@2
 rmtrash
+rsync
 the_silver_searcher
 tree
 vim
