@@ -3,9 +3,36 @@
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew install $(cat brew_leaves)
 
+mkdir -p ~/.vim/undo
+which zsh | sudo tee -a /etc/shells
+chsh -s $(which zsh)
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+git clone https://github.com/zdharma/fast-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/fast-syntax-highlighting
+
+defaults write -globalDomain AppleShowScrollBars -string WhenScrolling
+defaults write -globalDomain AppleWindowTabbingMode -string always
+defaults -currentHost write com.apple.screensaver idleTime -int 0
+defaults write com.apple.dock mineffect -string scale
+defaults write com.apple.dock autohide -bool true
+defaults write com.apple.dock minimize-to-application -bool true
+defaults write com.apple.dock show-process-indicators -bool false
+defaults write com.apple.dock show-recents -bool false
+defaults write com.apple.dock tilesize -float 48
+defaults write com.apple.dock expose-group-apps -bool true
+defaults write com.apple.dock mru-spaces -bool false
+defaults write com.apple.lookup.shared LookupSuggestionsDisabled -bool true
+defaults -currentHost write com.apple.notificationcenterui dndEnabledDisplaySleep -bool true
+defaults write -globalDomain InitialKeyRepeat -int 68
+defaults write -globalDomain KeyRepeat -int 2
+defaults write -globalDomain NSAutomaticCapitalizationEnabled -bool 0
+defaults write -globalDomain NSAutomaticPeriodSubstitutionEnabled -bool 0
+defaults write -globalDomain NSAutomaticSpellingCorrectionEnabled -bool 0
+defaults write -globalDomain CGDisableCursorLocationMagnification -bool 1
 defaults write com.apple.dock autohide-delay -float 0
 defaults write com.apple.dock autohide-time-modifier -float 0.5
-killall Dock
-
 defaults write com.apple.universalaccess reduceTransparency -bool true
+defaults write com.apple.finder FXDefaultSearchScope -string SCcf
+defaults write com.apple.finder FXRemoveOldTrashItems -bool 1
+defaults write com.apple.finder "_FXSortFoldersFirst" -bool 1
+killall Dock
 killall Finder
