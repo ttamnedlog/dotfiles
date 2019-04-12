@@ -28,6 +28,7 @@ defaults write -globalDomain NSAutomaticCapitalizationEnabled -bool 0
 defaults write -globalDomain NSAutomaticPeriodSubstitutionEnabled -bool 0
 defaults write -globalDomain NSAutomaticSpellingCorrectionEnabled -bool 0
 defaults write -globalDomain CGDisableCursorLocationMagnification -bool 1
+defaults write -globalDomain ApplePressAndHoldEnabled -bool false
 defaults write com.apple.dock autohide-delay -float 0
 defaults write com.apple.dock autohide-time-modifier -float 0.5
 defaults write com.apple.universalaccess reduceTransparency -bool true
