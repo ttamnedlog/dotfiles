@@ -23,7 +23,7 @@ defaults write com.apple.dock mru-spaces -bool false
 defaults write com.apple.lookup.shared LookupSuggestionsDisabled -bool true
 defaults -currentHost write com.apple.notificationcenterui dndEnabledDisplaySleep -bool true
 defaults write -globalDomain InitialKeyRepeat -int 68
-defaults write -globalDomain KeyRepeat -int 2
+defaults write -globalDomain KeyRepeat -int 1
 defaults write -globalDomain NSAutomaticCapitalizationEnabled -bool 0
 defaults write -globalDomain NSAutomaticPeriodSubstitutionEnabled -bool 0
 defaults write -globalDomain NSAutomaticSpellingCorrectionEnabled -bool 0

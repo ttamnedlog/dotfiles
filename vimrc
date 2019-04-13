@@ -122,6 +122,9 @@ nnoremap <leader>u :GundoToggle<CR>
 
 " Force saving files that require root permission
 cnoremap w!! w !sudo tee > /dev/null %
+
+" Map escape to jk
+inoremap jk <esc>
 " }}}
 
 " --- Ack {{{
