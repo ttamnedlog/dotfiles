@@ -5,6 +5,7 @@ ffmpeg
 git
 git-flow-avh
 grunt-cli
+irssi
 python@2
 rmtrash
 rsync
