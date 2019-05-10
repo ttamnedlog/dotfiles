@@ -1,6 +1,7 @@
 bower
 cmake
 composer
+ffmpeg
 git
 git-flow-avh
 grunt-cli
