@@ -11,22 +11,18 @@ endif
 " NOTE: cmake is required to compile the YouCompleteMe plugin below!
 
 call plug#begin('~/.vim/bundle')
-" Plug 'NLKNguyen/papercolor-theme'
-" Plug 'altercation/vim-colors-solarized'
-" Plug 'joshdick/onedark.vim'
-" Plug 'majutsushi/tagbar'
 " Plug 'w0rp/ale'
 Plug 'airblade/vim-gitgutter'
 Plug 'bling/vim-airline'
+Plug 'ctrlpvim/ctrlp.vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'godlygeek/tabular'
-Plug 'kien/ctrlp.vim'
+Plug 'majutsushi/tagbar'
 Plug 'mileszs/ack.vim'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'raimondi/delimitmate'
 Plug 'rakr/vim-one'
-Plug 'sheerun/vim-polyglot'
 Plug 'shumphrey/fugitive-gitlab.vim'
 Plug 'sjl/gundo.vim'
 Plug 'terryma/vim-multiple-cursors'
@@ -39,6 +35,16 @@ Plug 'tpope/vim-vinegar'
 Plug 'valloric/youcompleteme', { 'do': './install.py' }
 Plug 'vim-airline/vim-airline-themes'
 Plug 'vim-vdebug/vdebug'
+" Language plugins
+" Plug 'sheerun/vim-polyglot'
+Plug 'StanAngeloff/php.vim'
+Plug 'amadeus/vim-jsx'
+Plug 'cakebaker/scss-syntax.vim'
+Plug 'elzr/vim-json'
+Plug 'hail2u/vim-css3-syntax'
+Plug 'jwalton512/vim-blade'
+Plug 'pangloss/vim-javascript'
+Plug 'plasticboy/vim-markdown'
 call plug#end()
 " }}}
 
@@ -66,20 +72,6 @@ set undodir=$HOME/.vim/undo
 set undofile
 set undolevels=1000
 set undoreload=10000
-
-" set statusline=%F%m%r%h%w[%L][%{&ff}]%y[%p%%][%04l,%04v]
-"              | | | | |  |   |      |  |     |    |
-"              | | | | |  |   |      |  |     |    +-- current column
-"              | | | | |  |   |      |  |     +-- current line
-"              | | | | |  |   |      |  +-- current % into file
-"              | | | | |  |   |      +-- current syntax
-"              | | | | |  |   +-- current fileformat
-"              | | | | |  +-- number of lines
-"              | | | | +-- preview flag in square brackets
-"              | | | +-- help flag in square brackets
-"              | | +-- readonly flag in square brackets
-"              | +-- modified flag in square brackets
-"              +-- full path to file in the buffer
 " }}}
 
 " Colors {{{
@@ -99,14 +91,9 @@ if (empty($TMUX))
   endif
 endif
 
-" let g:airline_theme='onedark'
-" let g:airline_theme='solarized'
 let g:airline_theme='one'
-" let g:airline_theme='papercolor'
-" colorscheme onedark
-" colorscheme solarized
+let g:one_allow_italics=1
 colorscheme one
-" colorscheme PaperColor
 set background=dark
 " }}}
 
