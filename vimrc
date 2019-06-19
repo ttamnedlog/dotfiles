@@ -36,15 +36,15 @@ Plug 'valloric/youcompleteme', { 'do': './install.py' }
 Plug 'vim-airline/vim-airline-themes'
 Plug 'vim-vdebug/vdebug'
 " Language plugins
-" Plug 'sheerun/vim-polyglot'
-Plug 'StanAngeloff/php.vim'
-Plug 'amadeus/vim-jsx'
-Plug 'cakebaker/scss-syntax.vim'
-Plug 'elzr/vim-json'
-Plug 'hail2u/vim-css3-syntax'
-Plug 'jwalton512/vim-blade'
-Plug 'pangloss/vim-javascript'
-Plug 'plasticboy/vim-markdown'
+Plug 'sheerun/vim-polyglot'
+" Plug 'StanAngeloff/php.vim'
+" Plug 'amadeus/vim-jsx'
+" Plug 'cakebaker/scss-syntax.vim'
+" Plug 'elzr/vim-json'
+" Plug 'hail2u/vim-css3-syntax'
+" Plug 'jwalton512/vim-blade'
+" Plug 'pangloss/vim-javascript'
+" Plug 'plasticboy/vim-markdown'
 call plug#end()
 " }}}
 
