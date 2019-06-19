@@ -4,6 +4,8 @@
 <dict>
 	<key>AddNewTabAtEndOfTabs</key>
 	<false/>
+	<key>AdjustWindowForFontSizeChange</key>
+	<false/>
 	<key>AppleAntiAliasingThreshold</key>
 	<integer>1</integer>
 	<key>AppleScrollAnimationEnabled</key>
@@ -834,9 +836,9 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>970 768 620 392 0 0 2560 1417 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>1339 344 928 394 0 0 2560 1417 </string>
+	<string>1339 316 796 486 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1238 0 1318 1397 0 0 2560 1417 </string>
+	<string>23 21 1246 1376 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>480 483 1110 893 0 0 2560 1417 </string>
 	<key>New Bookmarks</key>
@@ -4199,7 +4201,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-06-06T13:52:57Z</date>
+	<date>2019-06-18T14:10:41Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>StretchTabsToFillBar</key>
