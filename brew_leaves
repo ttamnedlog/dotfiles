@@ -1,4 +1,6 @@
+automake
 bower
+koekeishiya/formulae/chunkwm
 cmake
 composer
 ffmpeg
@@ -6,11 +8,16 @@ git
 git-flow-avh
 grunt-cli
 irssi
+node@10
+pkg-config
 python@2
+rename
 rmtrash
 rsync
+koekeishiya/formulae/skhd
 the_silver_searcher
 tree
+universal-ctags/universal-ctags/universal-ctags
 vim
 yarn
 zsh
