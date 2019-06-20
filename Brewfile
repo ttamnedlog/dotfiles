@@ -30,6 +30,4 @@ brew "vim"
 brew "yarn"
 brew "zsh"
 brew "zsh-completions"
-brew "koekeishiya/formulae/chunkwm"
-brew "koekeishiya/formulae/skhd"
 brew "universal-ctags/universal-ctags/universal-ctags", args: ["HEAD"]

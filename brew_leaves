@@ -1,6 +1,5 @@
 automake
 bower
-koekeishiya/formulae/chunkwm
 cmake
 composer
 ffmpeg
@@ -14,7 +13,6 @@ python@2
 rename
 rmtrash
 rsync
-koekeishiya/formulae/skhd
 the_silver_searcher
 tree
 universal-ctags/universal-ctags/universal-ctags
