@@ -784,6 +784,8 @@
 	<real>250</real>
 	<key>DetectPasswordInput</key>
 	<false/>
+	<key>DisableWindowSizeSnap</key>
+	<true/>
 	<key>Hotkey</key>
 	<false/>
 	<key>HotkeyChar</key>
@@ -836,9 +838,9 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>970 768 620 392 0 0 2560 1417 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>1339 316 796 486 0 0 2560 1417 </string>
+	<string>1339 394 1018 447 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>23 21 1246 1376 0 0 2560 1417 </string>
+	<string>1707 0 853 1417 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>480 483 1110 893 0 0 2560 1417 </string>
 	<key>New Bookmarks</key>
@@ -4201,7 +4203,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-06-18T14:10:41Z</date>
+	<date>2019-06-20T20:10:23Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>StretchTabsToFillBar</key>
