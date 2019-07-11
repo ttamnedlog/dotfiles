@@ -1,5 +1,7 @@
 #!/bin/bash
 
+tic -x xterm-256color-italic.terminfo
+
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew install $(cat brew_leaves)
 
