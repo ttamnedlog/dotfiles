@@ -17,6 +17,7 @@ brew "git"
 brew "git-flow-avh"
 brew "grunt-cli"
 brew "irssi"
+brew "neofetch"
 brew "node@10", link: true
 brew "pkg-config"
 brew "python@2"
