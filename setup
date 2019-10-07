@@ -7,7 +7,7 @@
 ########## Variables
 
 dir=~/.dotfiles                    # dotfiles directory
-files="bash_profile vimrc zshrc editorconfig"    # list of files/folders to symlink in homedir
+files="bash_profile vimrc zshrc editorconfig gitignore_global"    # list of files/folders to symlink in homedir
 
 ##########
 
@@ -20,3 +20,5 @@ for file in $files; do
     echo "Creating symlink to $file in home directory."
     ln -s $dir/$file ~/.$file
 done
+
+git config --global core.excludesfile ~/.gitignore_global
