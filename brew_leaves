@@ -1,16 +1,15 @@
 automake
-bower
 cmake
 composer
 ffmpeg
 git
 git-flow-avh
-grunt-cli
+gnu-sed
+grep
 irssi
 neofetch
-node@10
+nvm
 pkg-config
-python@2
 rename
 rmtrash
 rsync
@@ -18,6 +17,5 @@ the_silver_searcher
 tree
 universal-ctags/universal-ctags/universal-ctags
 vim
-yarn
 zsh
 zsh-completions
