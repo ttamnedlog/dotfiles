@@ -1,6 +1,10 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=/usr/local/sbin:$PATH
 
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 

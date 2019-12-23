@@ -9,7 +9,7 @@ grep
 irssi
 neofetch
 nvm
-pkg-config
+pyenv-virtualenv
 rename
 rmtrash
 rsync
