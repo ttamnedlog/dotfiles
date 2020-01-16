@@ -3718,6 +3718,8 @@
 			</dict>
 			<key>Bound Hosts</key>
 			<array/>
+			<key>Brighten Bold Text</key>
+			<false/>
 			<key>Character Encoding</key>
 			<integer>4</integer>
 			<key>Close Sessions On End</key>
@@ -4170,13 +4172,13 @@
 	<key>NoSyncAllAppVersions</key>
 	<array>
 		<string>3.3.6</string>
-		<string>3.3.0</string>
+		<string>3.3.2</string>
 		<string>3.3.1</string>
 		<string>3.3.3</string>
 		<string>3.3.5</string>
 		<string>3.3.7</string>
+		<string>3.3.0</string>
 		<string>3.2.9</string>
-		<string>3.3.2</string>
 		<string>3.3.4</string>
 	</array>
 	<key>NoSyncBFPRecents</key>
@@ -4189,14 +4191,14 @@
 		<key>screenFrame</key>
 		<string>{{0, 0}, {1680, 1050}}</string>
 		<key>topLeft</key>
-		<string>{296, 828}</string>
+		<string>{120, 768}</string>
 	</dict>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>BF9CAB8E-F792-4645-8B7F-ADB735DCECAE</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>103</integer>
+	<integer>105</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
 	<real>586898680.92735004</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
