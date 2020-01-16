@@ -104,4 +104,4 @@ alias vgs="vagrant global-status"
 # .zshrc
 autoload -U promptinit; promptinit
 prompt pure
-neofetch
+# neofetch
