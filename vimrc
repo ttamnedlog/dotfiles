@@ -21,6 +21,7 @@ Plug 'godlygeek/tabular'
 Plug 'majutsushi/tagbar'
 Plug 'mileszs/ack.vim'
 Plug 'nathanaelkane/vim-indent-guides'
+Plug 'NLKNguyen/papercolor-theme'
 Plug 'raimondi/delimitmate'
 Plug 'rakr/vim-one'
 Plug 'shumphrey/fugitive-gitlab.vim'
@@ -91,9 +92,12 @@ if (empty($TMUX))
   endif
 endif
 
-let g:airline_theme='one'
-colorscheme one
-set background=dark
+" let g:airline_theme='one'
+" colorscheme one
+" set background=dark
+let g:airline_theme='papercolor'
+colorscheme papercolor
+set background=light
 " }}}
 
 " Keybindings {{{
