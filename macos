@@ -35,6 +35,6 @@ defaults write com.apple.universalaccess reduceTransparency -bool true
 defaults write com.apple.finder FXDefaultSearchScope -string SCcf
 defaults write com.apple.finder FXRemoveOldTrashItems -bool 1
 defaults write com.apple.finder "_FXSortFoldersFirst" -bool 1
-defaults write com.apple.FontBook NSRequiresAquaSystemAppearance -bool yes
+# defaults write com.apple.FontBook NSRequiresAquaSystemAppearance -bool yes
 killall Dock
 killall Finder
