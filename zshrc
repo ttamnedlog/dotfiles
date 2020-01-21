@@ -1,6 +1,7 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=/usr/local/sbin:$PATH
 
+#Pyenv
 export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
@@ -69,6 +70,9 @@ source $ZSH/oh-my-zsh.sh
 fpath=(/usr/local/share/zsh-completions $fpath)
 
 # export MANPATH="/usr/local/man:$MANPATH"
+
+# Workaround for input lag on man command with fast-syntax-highlighting
+export FAST_HIGHLIGHT[whatis_chroma_type]=0
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
