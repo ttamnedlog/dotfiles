@@ -781,7 +781,7 @@
 		</dict>
 	</dict>
 	<key>Default Bookmark Guid</key>
-	<string>EFC4F134-F633-48DF-91D9-9416B43EEDCE</string>
+	<string>039B408C-04B3-434F-BAEF-FC4BA6D0F4AD</string>
 	<key>Default Toolbelt Width</key>
 	<real>250</real>
 	<key>DetectPasswordInput</key>
@@ -852,9 +852,9 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>128 336 796 486 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 279 990 748 0 0 1680 1027 </string>
+	<string>2465 142 990 748 1680 -192 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>301 328 990 748 0 0 1920 1177 </string>
+	<string>2709 93 990 748 1680 -192 2560 1417 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -4174,15 +4174,16 @@
 	<key>NoSyncAllAppVersions</key>
 	<array>
 		<string>3.3.6</string>
-		<string>3.3.4</string>
 		<string>3.3.8</string>
+		<string>3.3.4</string>
 		<string>3.3.1</string>
 		<string>3.3.3</string>
 		<string>3.3.5</string>
 		<string>3.3.7</string>
-		<string>3.3.0</string>
+		<string>3.3.9</string>
 		<string>3.2.9</string>
 		<string>3.3.2</string>
+		<string>3.3.0</string>
 	</array>
 	<key>NoSyncBFPRecents</key>
 	<array>
@@ -4201,7 +4202,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>BF9CAB8E-F792-4645-8B7F-ADB735DCECAE</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>120</integer>
+	<integer>174</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
 	<real>586898680.92735004</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
@@ -4974,9 +4975,11 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-02-04T21:57:35Z</date>
+	<date>2020-03-30T19:55:05Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
+	<key>SUUpdateGroupIdentifier</key>
+	<integer>3375507004</integer>
 	<key>SUUpdateRelaunchingMarker</key>
 	<false/>
 	<key>SoundForEsc</key>
@@ -5002,7 +5005,7 @@
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
 	<key>iTerm Version</key>
-	<string>3.3.8</string>
+	<string>3.3.9</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>

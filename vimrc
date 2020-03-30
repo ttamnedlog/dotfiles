@@ -33,7 +33,7 @@ Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-vinegar'
-Plug 'valloric/youcompleteme', { 'do': './install.py' }
+" Plug 'valloric/youcompleteme', { 'do': './install.py' }
 Plug 'vim-airline/vim-airline-themes'
 Plug 'vim-vdebug/vdebug'
 " Language plugins
@@ -92,12 +92,12 @@ if (empty($TMUX))
   endif
 endif
 
-" let g:airline_theme='one'
-" colorscheme one
-" set background=dark
-let g:airline_theme='papercolor'
-colorscheme papercolor
-set background=light
+let g:airline_theme='one'
+colorscheme one
+set background=dark
+" let g:airline_theme='papercolor'
+" colorscheme papercolor
+" set background=light
 " }}}
 
 " Keybindings {{{
