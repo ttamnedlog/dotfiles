@@ -23,6 +23,9 @@ defaults write com.apple.dock mru-spaces -bool false
 defaults write com.apple.accessibility KeyRepeatDelay -float 0.5
 defaults write com.apple.accessibility KeyRepeatInterval -float 0.083333333
 defaults write com.apple.controlcenter "NSStatusItem Visible Bluetooth" -bool true
+defaults write com.apple.controlcenter "NSStatusItem Visible Sound" -bool true
+defaults write com.apple.controlcenter "NSStatusItem Visible com.apple.extra.TimeMachine" -bool true
+defaults write com.apple.menuextra.clock ShowAMPM -bool false
 defaults write -globalDomain NSAutomaticCapitalizationEnabled -bool false
 defaults write -globalDomain NSAutomaticPeriodSubstitutionEnabled -bool false
 defaults write -globalDomain NSAutomaticSpellingCorrectionEnabled -bool false
