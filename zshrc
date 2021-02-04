@@ -98,7 +98,6 @@ export FAST_HIGHLIGHT[whatis_chroma_type]=0
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias del="rmtrash"
 alias j="jump"
 alias npmg="npm list -g --depth=0 2>/dev/null"
 alias npml="npm list --depth=0 2>/dev/null"
