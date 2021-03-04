@@ -47,5 +47,8 @@ defaults write com.apple.finder NewWindowTarget -string PfHm
 defaults write -globalDomain AppleShowAllExtensions -bool true
 defaults write com.apple.FontBook NSRequiresAquaSystemAppearance -bool yes
 defaults write com.apple.TextEdit NSRequiresAquaSystemAppearance -bool yes
+defaults write com.apple.coreservices.uiagent CSUIHasSafariBeenLaunched -bool YES
+defaults write com.apple.coreservices.uiagent CSUIRecommendSafariNextNotificationDate -date 2050-01-01T00:00:00Z
+defaults write com.apple.coreservices.uiagent CSUILastOSVersionWhereSafariRecommendationWasMade -float 11.99
 killall Dock
 killall Finder
