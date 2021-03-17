@@ -59,15 +59,17 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 fpath=(/usr/local/share/zsh-completions $fpath)
 
-#Trellis CLI
-eval "$(trellis shell-init zsh)"
-
 #Pyenv
 if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
 if which pyenv-virtualenv-init > /dev/null; then
   eval "$(pyenv virtualenv-init -)"
+fi
+
+#Trellis CLI
+if which trellis > /dev/null; then
+  eval "$(trellis shell-init zsh)"
 fi
 
 # Required by brew-installed nvm
