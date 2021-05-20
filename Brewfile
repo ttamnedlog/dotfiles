@@ -34,3 +34,4 @@ brew "zsh-completions"
 brew "roots/tap/trellis-cli"
 brew "universal-ctags/universal-ctags/universal-ctags", args: ["HEAD"]
 cask "blackhole-16ch"
+cask "vagrant"
