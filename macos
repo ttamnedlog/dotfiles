@@ -5,6 +5,7 @@ xcode-select --install
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew bundle install
 
+mkdir ~/.nvm
 nvm install --lts
 npm i -g pure-prompt
 
@@ -12,43 +13,11 @@ mkdir -p ~/.vim/undo
 which zsh | sudo tee -a /etc/shells
 chsh -s $(which zsh)
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-git clone https://github.com/zdharma/fast-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/fast-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
-defaults write -globalDomain AppleWindowTabbingMode -string always
-defaults write com.apple.dock wvous-bl-corner -int 10
-defaults write com.apple.dock wvous-bl-modifier -int 0
-defaults write com.apple.dock tilesize -float 48
-defaults write com.apple.dock mineffect -string scale
-defaults write com.apple.dock autohide -bool true
-defaults write com.apple.dock minimize-to-application -bool true
-defaults write com.apple.dock show-process-indicators -bool false
-defaults write com.apple.dock show-recents -bool false
-defaults write com.apple.dock expose-group-apps -bool true
-defaults write com.apple.dock mru-spaces -bool false
-defaults write com.apple.accessibility KeyRepeatDelay -float 0.5
-defaults write com.apple.accessibility KeyRepeatInterval -float 0.083333333
-defaults write com.apple.controlcenter "NSStatusItem Visible Bluetooth" -bool true
-defaults write com.apple.controlcenter "NSStatusItem Visible Sound" -bool true
-defaults write com.apple.controlcenter "NSStatusItem Visible com.apple.extra.TimeMachine" -bool true
-defaults write com.apple.menuextra.clock ShowAMPM -bool false
-defaults write -globalDomain NSAutomaticCapitalizationEnabled -bool false
-defaults write -globalDomain NSAutomaticPeriodSubstitutionEnabled -bool false
-defaults write -globalDomain NSAutomaticSpellingCorrectionEnabled -bool false
-defaults write -globalDomain WebAutomaticSpellingCorrectionEnabled -bool false
-defaults write -globalDomain CGDisableCursorLocationMagnification -bool true
 defaults write -globalDomain ApplePressAndHoldEnabled -bool false
 defaults write com.apple.dock autohide-delay -float 0
 defaults write com.apple.dock autohide-time-modifier -float 0.5
-defaults write -globalDomain com.apple.mouse.scaling -float 1
-defaults write com.apple.finder FXDefaultSearchScope -string SCcf
-defaults write com.apple.finder FXRemoveOldTrashItems -bool true
-defaults write com.apple.finder "_FXSortFoldersFirst" -bool true
-defaults write com.apple.finder NewWindowTarget -string PfHm
-defaults write -globalDomain AppleShowAllExtensions -bool true
 defaults write com.apple.FontBook NSRequiresAquaSystemAppearance -bool yes
-defaults write com.apple.TextEdit NSRequiresAquaSystemAppearance -bool yes
-defaults write com.apple.coreservices.uiagent CSUIHasSafariBeenLaunched -bool YES
-defaults write com.apple.coreservices.uiagent CSUIRecommendSafariNextNotificationDate -date 2050-01-01T00:00:00Z
-defaults write com.apple.coreservices.uiagent CSUILastOSVersionWhereSafariRecommendationWasMade -float 11.99
 killall Dock
 killall Finder
