@@ -57,7 +57,14 @@ plugins=(git macos brew vagrant jump zsh-syntax-highlighting history-substring-s
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-fpath=(/usr/local/share/zsh-completions $fpath)
+
+#zsh-completions
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
+
+  autoload -Uz compinit
+  compinit
+fi
 
 #Pyenv
 if command -v pyenv 1>/dev/null 2>&1; then
