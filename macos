@@ -7,7 +7,6 @@ brew bundle install
 
 mkdir ~/.nvm
 nvm install --lts
-npm i -g pure-prompt
 
 mkdir -p ~/.vim/undo
 which zsh | sudo tee -a /etc/shells
