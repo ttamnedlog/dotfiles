@@ -115,6 +115,9 @@ alias npmg="npm list -g --depth=0 2>/dev/null"
 alias npml="npm list --depth=0 2>/dev/null"
 alias obs="open /Applications/OBS.app/Contents/MacOS/OBS --args -picture"
 alias vgs="vagrant global-status"
+alias rsyncdry="rsync -havzPuin --delete --exclude='.DS_Store'"
+alias rsyncdo="rsync -havzPui --exclude='.DS_Store'"
+alias rsyncdelete="rsync -havzPui --delete --exclude='.DS_Store'"
 
 # .zshrc
 autoload -U promptinit; promptinit
