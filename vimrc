@@ -94,12 +94,12 @@ if (empty($TMUX))
   endif
 endif
 
-" let g:airline_theme='one'
-" colorscheme one
-" set background=dark
-let g:airline_theme='papercolor'
-colorscheme papercolor
-set background=light
+let g:airline_theme='one'
+colorscheme one
+set background=dark
+" let g:airline_theme='papercolor'
+" colorscheme papercolor
+" set background=light
 " }}}
 
 " Keybindings {{{
