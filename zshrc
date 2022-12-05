@@ -79,11 +79,6 @@ if which trellis > /dev/null; then
   eval "$(trellis shell-init zsh)"
 fi
 
-# Required by brew-installed nvm
-export NVM_DIR="$HOME/.nvm"
-[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && . "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
-  [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
-
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -123,3 +118,5 @@ alias rsyncdelete="rsync -havzPui --delete --exclude='.DS_Store'"
 autoload -U promptinit; promptinit
 prompt pure
 # neofetch
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
