@@ -11,23 +11,21 @@ endif
 " NOTE: cmake is required to compile the YouCompleteMe plugin below!
 
 call plug#begin('~/.vim/bundle')
-" Plug 'w0rp/ale'
 Plug 'airblade/vim-gitgutter'
-Plug 'bling/vim-airline'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'dense-analysis/ale'
 Plug 'easymotion/vim-easymotion'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'godlygeek/tabular'
-Plug 'majutsushi/tagbar'
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'mileszs/ack.vim'
-Plug 'nathanaelkane/vim-indent-guides'
-" Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'NLKNguyen/papercolor-theme'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'preservim/tagbar'
+Plug 'preservim/vim-indent-guides'
 Plug 'raimondi/delimitmate'
 Plug 'rakr/vim-one'
 Plug 'shumphrey/fugitive-gitlab.vim'
 Plug 'sjl/gundo.vim'
-Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-repeat'
@@ -35,19 +33,12 @@ Plug 'tpope/vim-rhubarb'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-vinegar'
-" Plug 'valloric/youcompleteme', { 'do': './install.py' }
+Plug 'valloric/youcompleteme', { 'do': './install.py' }
+Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'vim-vdebug/vdebug'
 " Language plugins
 Plug 'sheerun/vim-polyglot'
-" Plug 'StanAngeloff/php.vim'
-" Plug 'amadeus/vim-jsx'
-" Plug 'cakebaker/scss-syntax.vim'
-" Plug 'elzr/vim-json'
-" Plug 'hail2u/vim-css3-syntax'
-" Plug 'jwalton512/vim-blade'
-" Plug 'pangloss/vim-javascript'
-" Plug 'plasticboy/vim-markdown'
 call plug#end()
 " }}}
 
