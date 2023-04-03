@@ -117,6 +117,5 @@ alias rsyncdelete="rsync -havzPui --delete --exclude='.DS_Store'"
 # .zshrc
 autoload -U promptinit; promptinit
 prompt pure
-# neofetch
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
