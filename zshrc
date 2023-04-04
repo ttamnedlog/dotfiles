@@ -52,7 +52,7 @@ ZSH_THEME=""
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git macos brew vagrant jump zsh-syntax-highlighting history-substring-search)
+plugins=(git macos brew jump zsh-syntax-highlighting history-substring-search)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -109,7 +109,7 @@ alias j="jump"
 alias npmg="npm list -g --depth=0 2>/dev/null"
 alias npml="npm list --depth=0 2>/dev/null"
 alias obs="open /Applications/OBS.app/Contents/MacOS/OBS --args -picture"
-alias vgs="vagrant global-status"
+alias lgs="limactl list"
 alias rsyncdry="rsync -havzPuin --delete --exclude='.DS_Store'"
 alias rsyncdo="rsync -havzPui --exclude='.DS_Store'"
 alias rsyncdelete="rsync -havzPui --delete --exclude='.DS_Store'"
