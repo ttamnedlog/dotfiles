@@ -54,6 +54,7 @@ brew "zsh"
 brew "zsh-completions"
 brew "roots/tap/trellis-cli"
 brew "universal-ctags/universal-ctags/universal-ctags", args: ["HEAD"]
+cask "1password"
 cask "adobe-creative-cloud"
 cask "alt-tab"
 cask "blackhole-16ch"
