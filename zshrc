@@ -113,6 +113,7 @@ alias lgs="limactl list"
 alias rsyncdry="rsync -havzPuin --delete --exclude='.DS_Store'"
 alias rsyncdo="rsync -havzPui --exclude='.DS_Store'"
 alias rsyncdelete="rsync -havzPui --delete --exclude='.DS_Store'"
+alias youtube="yt-dlp -S 'ext'"
 
 # .zshrc
 autoload -U promptinit; promptinit
