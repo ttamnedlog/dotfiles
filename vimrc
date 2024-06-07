@@ -23,7 +23,8 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'preservim/tagbar'
 Plug 'preservim/vim-indent-guides'
 Plug 'raimondi/delimitmate'
-Plug 'rakr/vim-one'
+" Plug 'rakr/vim-one'
+Plug 'altercation/vim-colors-solarized'
 Plug 'shumphrey/fugitive-gitlab.vim'
 Plug 'sjl/gundo.vim'
 Plug 'tpope/vim-commentary'
@@ -85,12 +86,13 @@ if (empty($TMUX))
   endif
 endif
 
-let g:airline_theme='one'
-colorscheme one
-set background=dark
-" let g:airline_theme='papercolor'
-" colorscheme papercolor
-" set background=light
+syntax enable
+" let g:airline_theme='one'
+" set background=dark
+" colorscheme one
+let g:airline_theme='solarized'
+set background=light
+colorscheme solarized
 " }}}
 
 " Keybindings {{{
