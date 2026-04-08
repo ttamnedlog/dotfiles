@@ -120,3 +120,6 @@ autoload -U promptinit; promptinit
 prompt pure
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
+
+# CLAUDE
+export PATH="$HOME/.local/bin:$PATH"
