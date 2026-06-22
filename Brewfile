@@ -117,6 +117,8 @@ cask "docker-desktop"
 cask "figma"
 # Web browser
 cask "firefox"
+cask "font-fira-code"
+cask "font-fontawesome"
 # Web browser
 cask "google-chrome"
 # Free and open-source media player
@@ -167,7 +169,6 @@ vscode "dotjoshjohnson.xml"
 vscode "dsznajder.es7-react-js-snippets"
 vscode "eamodio.gitlens"
 vscode "esbenp.prettier-vscode"
-vscode "github.copilot-chat"
 vscode "ms-vscode.live-server"
 vscode "pepri.subtitles-editor"
 vscode "pkief.material-icon-theme"
