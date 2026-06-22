@@ -23,6 +23,8 @@ brew "e2fsprogs"
 brew "ffmpeg"
 # Distributed revision control system
 brew "git"
+# Modern implementation of the Git-flow branching model
+brew "git-flow-next"
 # GNU implementation of the famous stream editor
 brew "gnu-sed"
 # GNU Transport Layer Security (TLS) Library
@@ -53,8 +55,6 @@ brew "lima"
 brew "media-info"
 # 'traceroute' and 'ping' in a single tool
 brew "mtr"
-# Open-source, cross-platform JavaScript runtime environment
-brew "node"
 # Pretty, minimal and fast ZSH prompt
 brew "pure"
 # Python version management
@@ -157,8 +157,6 @@ cask "the-unarchiver"
 cask "transmit"
 # Open-source code editor
 cask "visual-studio-code"
-# Gecko based web browser
-cask "zen"
 # Video communication and virtual meeting platform
 cask "zoom"
 vscode "bmewburn.vscode-intelephense-client"
