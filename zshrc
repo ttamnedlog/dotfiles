@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=/opt/homebrew/bin:/opt/homebrew/sbin:$PATH
+# export PATH=/opt/homebrew/bin:/opt/homebrew/sbin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
@@ -57,6 +57,9 @@ plugins=(git macos brew jump zsh-syntax-highlighting history-substring-search)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+
+# Homebrew
+eval "$(/opt/homebrew/bin/brew shellenv zsh)"
 
 #zsh-completions
 if type brew &>/dev/null; then
