@@ -107,12 +107,8 @@ cask "balenaetcher"
 cask "blackhole-16ch"
 # Hardware benchmarking utility
 cask "cinebench"
-# Local WordPress Development Suite by Kinsta
-cask "devkinsta"
 # Voice and text chat software
 cask "discord"
-# App to build and share containerised applications and microservices
-cask "docker-desktop"
 # Collaborative team software
 cask "figma"
 # Web browser
@@ -129,6 +125,8 @@ cask "imageoptim"
 cask "iterm2"
 # Customise mouse behavior
 cask "linearmouse"
+# WordPress local development tool by Flywheel
+cask "local"
 # Provides updates to various Microsoft products
 cask "microsoft-auto-update"
 # Spreadsheet software
